@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Seekho CMS — Admin (Demo)</title>
+<style>body{font-family:system-ui,Arial,sans-serif;margin:0;color:#222}header{background:#1e3a5f;color:#fff;padding:16px}.wrap{max-width:900px;margin:0 auto;padding:16px}.card{border:1px solid #ddd;border-radius:12px;padding:16px;margin:12px 0}.note{background:#fff3cd;padding:12px;border-radius:10px}</style></head>
+<body><header><div class="wrap">SEEKHO — CMS <span style="color:#ccc">(Demo)</span></div></header>
+<div class="wrap"><div class="note"><b>Demo CMS only:</b> front-end demo, data in this browser (sk_* keys). No real server, login, payment or notification. Do NOT enter real student data. Production needs a backend/WordPress build.</div>
+<div class="card"><h2>Course enquiries (from the demo form)</h2><div id="enqs"></div></div>
+<div class="card"><h2>Before launch — must confirm with Seekho</h2><ul><li>Course fees: only the three promoted 3-month courses show a fee on their site; DIT and other course fees must be confirmed, never invented.</li><li>WhatsApp answering: link verified, but whether it is actively answered was not verified.</li><li>People: Babar Iqbal is CEO & Teaching Head — do not call him owner (site does not use that word).</li><li>Course-page enquiry delivery: verify the new form actually delivers to their admissions team.</li></ul></div>
+<p><a href="index.html">← Back to demo site</a></p></div>
+<script>try{var a=JSON.parse(localStorage.getItem('sk_enquiries')||'[]');document.getElementById('enqs').innerHTML=a.length?a.map(function(x){return '<p><b>'+x.name+'</b> · '+x.phone+' · '+x.course+' · '+x.mode+' · contact: '+x.time+'</p>'}).join(''):'<p>No demo enquiries yet.</p>'}catch(e){}</script></body></html>
